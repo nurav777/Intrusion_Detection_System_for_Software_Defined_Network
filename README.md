@@ -15,6 +15,7 @@ Key features:
   This modular design ensures scalability, responsiveness, and enhanced network security.
 
 📂 Project Structure
+
   SDN_IDS_Project/
     src/ – Source code
       custom_topology.py
@@ -30,6 +31,7 @@ Key features:
       ml_traffic_classifier.pkl
 
 🛠️ Requirements
+
   Linux environment
   Python 3.x
   Mininet
@@ -45,8 +47,11 @@ Key features:
     iptables (for automated blocking)
 
 🚀 How to Run
+
   1️⃣ Start the POX Controller
+  
       Navigate to POX folder and run: ./pox.py forwarding.l2_learning
+      
   2️⃣ Launch Mininet Custom Topology
       sudo python3 src/custom_topology.py
       Inside Mininet CLI, start an HTTP server on h1: h1 python3 -m http.server 80
