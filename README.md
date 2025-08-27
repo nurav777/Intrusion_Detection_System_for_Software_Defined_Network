@@ -163,7 +163,7 @@ It provides a **robust foundation for modern network security** and is fully exp
 
 ## 📸 Screenshots
 
-Include your terminal screenshots in `/screenshots` to visually demonstrate:
+Terminal screenshots included in `/screenshots` to visually demonstrate:
 
 - POX controller running  
 - Mininet topology  
